@@ -1,0 +1,77 @@
+#post-field {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+#post-container{
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+@media (min-width: 640px) {
+    #post-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (min-width: 900px) {
+    #post-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+.post-column {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    display: block;
+    height: 380px;
+    padding: 20px;
+    overflow: hidden;
+    border: solid 1px rgb(194, 194, 194);
+    box-shadow: 0 3px 5px rgb(179, 175, 175);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.post-title{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.post-info{
+    font-size: 1rem;
+    color: #666;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+}
+.post-meta{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.post-summary{   
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: black;
+}
+.post-img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 50%;
+}
+.post-icon {
+    display: inline-block;
+    width: auto;
+    height: 12px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,50 @@
+
+
+
+
+#tag {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+#tag-container {
+    position: relative;
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.red {
+    background-color: #f44336;
+    color: white;
+}
+.orange {
+    background-color: #ff9800;
+    color: white;
+}
+.yellow {
+    background-color: #edd501;
+    color: black;
+}
+.green {
+    background-color: #4CAF50;
+    color: white;
+}
+.blue {
+    background-color: #2196F3;
+    color: white;
+}
+.purple {
+    background-color: #9c27b0;
+    color: white;
+}
+.black {
+    background-color: #000000;
+    color: white;
+}
+

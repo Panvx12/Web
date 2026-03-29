@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family: "Noto Sans TC", "Noto Sans SC", "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(247, 247, 247);
+}
+
+footer {
+    display: block;
+    background-color: rgb(59 130 246);
+    max-width: 1300px;
+    width: 100%;
+    text-align: center;
+    margin: auto auto;
+    padding: 16px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 9999;
+    height: 10vh;
+    max-height: 60px;
+    width: 100%;
+    background: rgba(124, 124, 124, 0.6);
+    backdrop-filter: blur(10px);
+}
+.nav ul {
+    display: flex;
+    gap: 3%;
+    max-width: 1000px;
+    width: 70%;
+    height: 80%;
+}
+.nav ul li {
+    flex: 1;
+    display: flex;
+    list-style: none;
+}
+.nav ul li img {
+    width: auto;
+    height: 2vw;
+    max-height: 50%;
+    margin-right: 5%;
+}
+.nav ul li a {
+    flex: 1;
+    display: flex;
+    font-size: 2vw;
+    font-weight: 700;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover {
+    animation: floatUp 0.3s ease forwards;
+    background-color: #ddd;
+    color: #61aeff;
+}
+@media (min-width: 1300px) {
+    .nav ul li a {
+        font-size: 2rem;
+    }
+}
+
+.title {
+    display: block;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    text-align: center;
+    height: 60px;
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+@keyframes fadeInUp {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatUp {
+    0% { 
+        transform: translateY(0);
+    }
+    100% { 
+        transform: translateY(-0.5vh);
+    }
+}
+@media (min-width: 1300px) {
+    @keyframes floatUp {
+    0% { 
+        transform: translateY(0);
+    }
+    100% { 
+        transform: translateY(-5px);
+    }
+}
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
