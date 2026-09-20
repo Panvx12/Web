@@ -1,31 +1,36 @@
-# 鬆餅官方網站
+# Waffle Official Website
 
-這是我的個人官方網站，用來整理與展示我的個人資訊、目標、專案以及文章等內容。
+This is my personal official website, built to organize and display my personal background, goals, projects, and articles.
 
-## 🌐 官方網站
+🌐 **Official Website**
+👉 [Visit Waffle Official Website](#) <!-- Replace # with your actual URL -->
 
-👉 **[前往鬆餅官方網站](https://panvx12.github.io/Web/Home/home.html)**
+---
 
-## 📌 網站內容
+📌 **Website Contents**
 
-* **Home** — 首頁與最新資訊
-* **Goal** — 個人目標
-* **Project** — 個人專案
-* **Posts** — 文章與紀錄
-* **About** — 關於我
+* **Home** — Overview and latest updates
+* **Goal** — Personal goals
+* **Project** — Personal projects
+* **Posts** — Articles and personal logs
+* **About** — About me
 
-## 🚧 開發狀態
+---
 
-> **目前暫停更新**
+🚧 **Development Status**
 
-目前網站已暫停持續更新，現有內容僅作為目前版本的展示與紀錄。
+**Currently On Hold**  
+Active updates for this website are currently paused. The current contents serve solely as a showcase and record of the existing version.  
+A complete overhaul may be released in the future, featuring improved content, design, and functionality.
 
-未來可能會重新製作並推出更加完整的版本，包含更完善的內容、設計與功能。
+---
 
-## 🛠️ 技術
+🛠️ **Technologies Used**
 
-本網站為個人網站專案，使用 Web 技術製作並部署於 GitHub Pages。
+This is a personal website project built using core web technologies and deployed via GitHub Pages.
 
-## 📄 License
+---
 
-本專案主要作為個人網站使用。
+📄 **License**
+
+This repository is primarily used for a personal website.
